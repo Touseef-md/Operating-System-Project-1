@@ -106,7 +106,7 @@ to the local.conf file to add the following packages ```file, sudo, dpkg, apt, p
 Run the command ```touseef@touseef-2001:~/OS_PROJECT1/poky/build$ bitbake core-image-minimal``` , you can use core-image-sato or any other as per your requirement. Image building will start after this, you need an internet connection. This may take some time based on your system performance.
 
 ### 3. Final step: 
-Run the image in emulator to test the image built. Run the command ```touseef@touseef-2001:~/os-qemu/poky/build$ runqemu```.
+Run the image in emulator to test the image built. Run the command ```touseef@touseef-2001:~/OS_PROJECT1/poky/build$ runqemu```.
 ![image](https://user-images.githubusercontent.com/79767012/207830809-ff3b1781-3dfb-44e5-8065-effe690e791b.png)
 >Password is : root. 
 
